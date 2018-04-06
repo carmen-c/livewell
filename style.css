@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Poppins');
+
+/*================== MULTI ==================*/
+body {
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+}
+#wrap {
+    width: 100%;
+}
+.navBar {
+    background-color: #8eca3a;
+    height: 100px; 
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.menuButton {
+    height: 90px;
+    width: 90px;
+    background: none;
+}
+#menuDropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+}
+#menuDropdown table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#menuDropdown table td{
+    border: 1px #8eca3a solid;
+    padding: 5%;
+}
+#menuDropdown table td:hover {
+    background-color: #8eca3a; 
+}
+#menuDropdown table td:hover a {
+    color: #fff;
+}
+a:link {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #8eca3a;
+}
+a:visited {
+    color: #000;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.input {
+    border: 1px #8eca3a solid;
+    border-radius: 12px;
+    width: 80%;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.button {
+    background-color: #8eca3a;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    padding: 1% 4%;
+    width: auto;
+    height: 100px;
+    margin-bottom: 5%;
+}
+.button:hover, .button:active {
+    background-color: #000;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    text-align: center;
+}
+.banner {
+    width: 100%;
+    height: auto;
+}
+/*================== HOME ==================*/
+.logo {
+    padding: 5% 10%;
+    margin-bottom: 15%;
+    width: 50%;
+}
+/*================== RECIPES ==================*/
+#foodList {
+    width: 80%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.foodDiv {
+    width: 200px;
+    height: 200px;
+    margin: 1%;
+    border: 1px solid #8eca3a;
+    border-radius: 12px;
+}
+
+#search {
+    margin-top: 5%;
+}
+#dropdown {
+    margin-top: -5%;
+    background-color: #fff;
+    text-align: center;
+}
+/*================== RECIPE VIEW ==================*/
+#ingredientBox {
+    border: 1px solid #8eca3a;
+    border-radius: 12px;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 2.5em;
+}
+
+/*================== QUIZ ==================*/
+#regForm {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tab {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+input.invalid {
+  background-color: #ffdddd;
+}
+
+#buttonBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#stepBox {
+    text-align: center;
+    z-index: 2;
+    width: auto;
+    height: 50px;
+}
+.step {
+  height: 50px;
+  width: 50px;
+  margin: 20px 10px;
+  background-color: #fff;
+  border: 1px solid #8eca3a;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+.step.active {
+  opacity: 1;
+  border: 1px solid #fff;
+}
+.step.finish {
+  background-color: #fff;
+}
+
+.radio_item{
+display: none !important;
+}
+
+.label_item {
+opacity: 0.1;
+}
+
+.radio_item:checked + label {
+opacity: 1;
+}
+
+/*================== RESULT ==================*/
+#suggestions {
+    border: 1px solid #8eca3a;
+}

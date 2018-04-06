@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Live Well v1.0 - Recipes</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <div class="navBar">
+                <button id="menu" class="menuButton"><img src="imgs/menu.svg"/></button>
+                <div id="menuDropdown">
+                    <table>
+                        <tr>
+                            <td><a href="index.html">Home</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="recipes.html">Recipes</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="about.html">About</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="content">
+                <input type="search" placeholder="search" class="input" id="search"/>
+                <select class="input" id="dropdown">
+                    <option value="" disabled selected>Sort</option>
+                    <option value="caloriesUp">Calories Ascending</option>
+                    <option value="caloriesDown">Calories Descending</option>
+                    <option value="mealType">Meal Type</option>
+                </select>
+                
+                <div id="foodList">
+                </div>
+            </div>
+            
+        </div>
+        <script src="menu.js"></script>
+        <script src="recipes.js"></script>
+    </body>
+</html>

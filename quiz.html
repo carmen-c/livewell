@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Live Well v1.0 - Quiz</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <div class="navBar">
+                <div id="stepBox">
+                    <span class="step"></span>
+                    <span class="step"></span>
+                    <span class="step"></span>
+                    <span class="step"></span>
+                    <span class="step"></span>
+                  </div>
+            </div>
+            
+            <div class="content">
+                <form id="regForm">
+                  <!-- One "tab" for each step in the form: -->
+                  <div class="tab">
+                    <img class="banner" src="#"/>  
+                    <p id="q1">What ingredient is used in this dish?</p>
+                    <input type="radio" class="radio_item" value="" name="item" id="radio1">
+                    <label class="label_item" for="radio1"> <img src="img_url_here"> </label>
+                  </div>
+                  <div class="tab">fact
+                    <input placeholder="E-mail..." name="email" class="input">
+                    <input placeholder="Phone..." name="phone" class="input">
+                  </div>
+                  <div class="tab">
+                    <img class="banner" src="#"/>  
+                    <p id="q2">What ingredient is used in this dish?</p>
+                    <input placeholder="dd" class="input" name="dd">
+                    <input placeholder="mm" class="input" name="nn">
+                    <input placeholder="yyyy" class="input" name="yyyy">
+                  </div>
+                  <div class="tab">fact
+                    <input placeholder="Username..." class="input" name="uname">
+                    <input placeholder="Password..." class="input" name="pword" type="password">
+                  </div>
+                  <div class="tab">
+                    <img class="banner" src="#"/> 
+                    <p id="q3">What ingredient is used in this dish?</p>
+                    <input placeholder="Username..." class="input" name="uname">
+                    <input placeholder="Password..." class="input" name="pword" type="password">
+                  </div>
+                  
+                    <div id="buttonBox">
+                      <button type="button" id="prevBtn" onclick="nextPrev(-1)" class="button">Previous</button>
+                      <button type="button" id="nextBtn" onclick="nextPrev(1)" class="button">Next</button>
+                    </div>
+                </form> 
+            </div>
+            
+        </div>
+<!--        <script src="menu.js"></script>-->
+        <script src="quiz.js"></script>
+    </body>
+</html>

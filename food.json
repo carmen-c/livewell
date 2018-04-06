@@ -1,0 +1,50 @@
+[
+	{
+		"name": "French Toast",
+		"image": "https://d1doqjmisr497k.cloudfront.net/-/media/mccormick-us/recipes/mccormick/q/800/quick-and-easy-french-toast.ashx?vd=20171018T133744Z&hash=7AD28A0C971AAAAF2DEAD18CE67FCC8E36FA9DF2",
+		"type": "Breakfast",
+		"calories": "446",
+		"ingredients": ["Bread", "Egg", "Ground Cinnamon", "Ground Nutmeg", "Sugar", "Butter", "Milk", "Vanilla", "Maple Syrup"],
+		"servings": "4 servings",
+		"Q1": "Milk", 
+		"Q2": "November 28th", 
+		"Q3": "No",
+		"recipeHTML": "https://www.foodnetwork.com/recipes/robert-irvine/french-toast-recipe-1951408"
+	},
+	{
+		"name": "Pancake",
+		"image": "https://hips.hearstapps.com/ghk.h-cdn.co/assets/16/38/1600x1066/gallery-1474822198-how-to-make-pancakes.jpg?resize=768:*",
+		"type": "Breakfast",
+		"calories": "344",
+		"ingredients": ["All-purpose Flour", "Sugar", "Baking Powder", "Salt", "Ground Nutmeg", "Egg", "Milk", "Vanilla", "Unsalted Butter"],
+		"servings": "4 servings",
+		"Q1": "Maple Syrup", 
+		"Q2": "November 28th",
+		"Q3": "Rochdale", 
+		"recipeHTML": "https://www.foodnetwork.com/recipes/food-network-kitchen/pancakes-recipe-1913844"
+	},
+	{
+		"name": "Classic Burger",
+		"image": "https://truffle-assets.imgix.net/0d26ee59-813-lucyjuicycrunchburger-land1.jpg",
+		"type": "Lunch",
+		"calories": "480",
+		"ingredients": ["Ground Beef", "Onion", "Bread Crumbs", "Salt", "Worchestershire Sauce", "Egg", "Garlic", "Pepper", "Hamburger Buns", "Mayonnaise", "Ketchup", "Lettuce", "Tomato", "Red Onion"],
+		"servings": "4 servings",
+		"Q1": "Seymour, Wisconsin", 
+		"Q2": "August 27th", 
+		"Q3": "1900", 
+		"recipeHTML": "http://www.myrecipes.com/recipe/classic-burger"
+	},
+	{
+		"name": "Spaghetti Bolognese",
+		"image": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+		"type": "Lunch",
+		"calories": "420",
+		"ingredients": ["Ground Beef", "Onion", "Carrot", "Celery", "Worchestershire Sauce", "Extra-virgin Olive Oil", "Garlic", "Salt", "Tomato Paste", "Red Wine", "Water", "Bay Leaves", "Thyme", "Spaghetti", "Parmesan Cheese"],
+		"servings": "6 servings",
+		"Q1": "Bologna, Northern Italy",
+		"Q2": "January 4th", 
+		"Q3": "Ragu alla Bolognese", 
+		"recipeHTML": "https://www.foodnetwork.com/recipes/anne-burrell/pasta-bolognese-recipe-1939315"
+	}
+]
