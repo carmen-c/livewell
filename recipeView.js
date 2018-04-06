@@ -1,5 +1,5 @@
+//get the food object that was clicked on
 $(document).ready(function() {
-    
     if (typeof(Storage) !== "undefined") {
         var chosen = localStorage.getItem("chosenFood");
         var food = JSON.parse(chosen);
@@ -11,10 +11,12 @@ $(document).ready(function() {
     
 });
 
+//to the quiz!
 document.getElementById("toTest").addEventListener("click", function() {
     location.href = "quiz.html"; 
 });
 
+//show the info related to the food object
 function display(food) {
     document.getElementById("image").src = food.image;
     document.getElementById("dishName").innerText = food.name;

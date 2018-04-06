@@ -1,6 +1,7 @@
 
 document.getElementById("start").addEventListener("click", function() {
-    localStorage.clear(); //new name, new person! clear all saved data.
+    //new name, new person! clear all saved data.
+    localStorage.clear(); 
     
     //save their name for later use
     userName = document.getElementById("name").value; 
