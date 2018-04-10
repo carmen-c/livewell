@@ -1,7 +1,7 @@
 [
 	{
 		"name": "French Toast",
-		"image": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+		"image": "url(./imgs/french_toast.jpg)",
 		"type": "Breakfast",
 		"calories": "446",
 		"ingredients": ["Bread", "Egg", "Ground Cinnamon", "Ground Nutmeg", "Sugar", "Butter", "Whole Milk", "Vanilla", "Maple Syrup"],
@@ -15,7 +15,7 @@
 	},
 	{
 		"name": "Pancake",
-		"image": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+		"image": "url(./imgs/pancakes.jpg)",
 		"type": "Breakfast",
 		"calories": "344",
 		"ingredients": ["All-purpose Flour", "Sugar", "Baking Powder", "Salt", "Ground Nutmeg", "Egg", "Milk", "Vanilla", "Unsalted Butter"],
@@ -29,7 +29,7 @@
 	},
 	{
 		"name": "Classic Burger",
-		"image": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+		"image": "url(./imgs/burger.jpg)",
 		"type": "Lunch",
 		"calories": "480",
 		"ingredients": ["Ground Beef", "Onion", "Bread Crumbs", "Salt", "Worchestershire Sauce", "Egg", "Garlic", "Pepper", "Hamburger Buns", "Mayonnaise", "Ketchup", "Lettuce", "Tomato", "Red Onion"],
@@ -43,7 +43,7 @@
 	},
 	{
 		"name": "Spaghetti Bolognese",
-		"image": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+		"image": "url(./imgs/spaghetti.jpg)",
 		"type": "Lunch",
 		"calories": "420",
 		"ingredients": ["Ground Beef", "Onion", "Carrot", "Celery", "Worchestershire Sauce", "Extra-virgin Olive Oil", "Garlic", "Salt", "Tomato Paste", "Red Wine", "Water", "Bay Leaves", "Thyme", "Spaghetti", "Parmesan Cheese"],
@@ -57,7 +57,7 @@
 	},
 	{
 		"name": "Steak au Poivre",
-		"image": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+		"image": "url(./imgs/steak.jpg)",
 		"type": "Dinner",
 		"calories": "330",
 		"ingredients": ["Tenderloin Beef", "Kosher Salt", "Peppercorns", "Unsalted Butter", "Olive Oil", "Cognac", "Garlic", "Heavy Cream"],
@@ -71,7 +71,7 @@
 	},
 	{
 		"name": "Oven-baked Salmon",
-		"image": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+		"image": "url(./imgs/salmon.jpg)",
 		"type": "Dinner",
 		"calories": "177",
 		"ingredients": ["Salmon Fillet", "Coarse-grained Salt", "Ground Peppers", "Squash", "Shallot", "Red Wine Vinegar", "Capers", "Parsley", "Toasted Almonds", "Extra-virgin Olive Oil"],
@@ -85,7 +85,7 @@
 	},
 	{
 		"name": "Steamed Bun/Bao Zi",
-		"image": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+		"image": "url(./imgs/steambun.jpg)",
 		"type": "Breakfast",
 		"calories": "150",
 		"ingredients": ["Spareribs", "Hoisin Sauce", "Cabbage", "Scallions", "Dry Yeast", "Water", "Capers", "All-purpose Flour", "Cake Flour", "Sugar", "Baking Powder", "Milk", "Canola Oil"],
@@ -99,7 +99,7 @@
 	},
 	{
 		"name": "Chinese Cruller/You Tiao",
-		"image": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+		"image": "url(./imgs/crullers.jpg)",
 		"type": "Breakfast",
 		"calories": "305",
 		"ingredients": ["Vegetable Oil", "Soy Milk", "Dry Yeast", "All-purpose Flour", "Sugar", "Milk"],
@@ -113,7 +113,7 @@
 	},
 	{
 		"name": "Tonkotsu Ramen",
-		"image": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+		"image": "url(./imgs/ramen.jpg)",
 		"type": "Lunch",
 		"calories": "552",
 		"ingredients": ["Pig Trotters", "Chicken", "Vegetable Oil", "Onion", "Garlic", "Ginger", "Leeks", "Scallion", "Mushroom", "Pork Fat"],
@@ -127,7 +127,7 @@
 	},
 	{
 		"name": "Sushi",
-		"image": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+		"image": "url(./imgs/sushi.jpg)",
 		"type": "Lunch",
 		"calories": "403",
 		"ingredients": ["Water", "Japanese Rice", "Salt", "Sugar", "Japanese Rice Wine Vinegar", "Nori Sheets", "Wasabi", "Soy Sauce", "Pickled Ginger", "Cucumber", "Avocado", "Crab Meat", "Carrot", "Shiitake Mushroom", "Smoked Salmon", "Tuna", "Green Onion", "Tuna Salad", "Shrimp", "Mayonnaise", "Chili Sauce", "Sesame Seed"],
@@ -155,7 +155,7 @@
 	},
 	{
 		"name": "Beef Pho",
-		"image": "https://www.gettyimages.ie/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg",
+		"image": "url(./imgs/pho.jpg)",
 		"type": "Dinner",
 		"calories": "389",
 		"ingredients": ["Beef Shanks", "Yellow Onion", "Ginger", "Garlic", "Vegetable Oil", "Kosher Salt", "Cinnamon Sticks", "Star Anise", "Black Peppercorns", "Beef Broth", "Fish Sauce", "Flat Rice Noodles", "Roast Beef", "Bean Sprouts", "Thai Basil", "Jalapeno Peppers", "Red Onion", "Hoisin Sauce", "Chili Sauce"],
