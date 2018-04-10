@@ -104,11 +104,11 @@
 		"calories": "305",
 		"ingredients": ["Vegetable Oil", "Soy Milk", "Dry Yeast", "All-purpose Flour", "Sugar", "Milk"],
 		"servings": "4 servings",
-		"Q1": "305 per serving",
+        "Q1": "305 per serving",
 		"Q2": "Flour",
 		"Q3": "4 hours",
 		"Qimages": ["flour", "rice", "beef"],
-		"suggestion": [],
+		"suggestion": ["Brown Sugar > Normal Sugar: -7 calories"],
 		"recipeHTML": "1. Dissolve 1 teaspoon of sugar and yeast in the warm milk. Keep in warm place for about 20 minutes, until bubbles form on the surface.<br/>2. In a large bowl, add the flour, remaining 3 teaspoons of sugar, and 1 teaspoon oil. Add the yeast mixture and mix well. Let rise in a warm place for 2-3 hours, until the dough doubles or triples in size.<br/>3. Sprinkle some flour over the dough, kneading the dough inside a bowl few times. Then transfer the dough to a floured surface and knead well for about 25 times. Cover with a damp towel and let sit in a warm place for 1 hour, until the dough is puffy.<br/>4. Knead well for about 25 times, adding a teaspoon of oil to the dough. Roll out the dough on a floured surface to about 1 inch thick. Cut into 1 inch wide strips. Stack them two by two, and press the center with a chopstick (lengthwise).<br/>5. Take the strip, one at a time, hold the two ends and stretch to 8-9 inches long. Repeat with all the strips.<br/>6. Heat the oil to 400°F (200°C) and fry the strips in batches (1 or 2 at a time). Flip the strips over continuously many times with chopstick when frying until they have puffed up and become golden brown. Repeat with the remaining strips.<br/>7. When done, drain on paper towels. Serve alongside warm soy milk, or alone. Enjoy!"
 	},
 	{
