@@ -1,4 +1,9 @@
 var food = null;
+
+var radio1 = document.getElementById("radio1"),
+    radio2 = document.getElementById("radio2"),
+    radio3 = document.getElementById("radio3");
+
 $(document).ready(function() {
         
     //get food object from localStorage
@@ -6,23 +11,22 @@ $(document).ready(function() {
         var chosen = localStorage.getItem("chosenFood");
         food = JSON.parse(chosen);
         setUp(food);
+        console.log(food);
     } else {
         document.getElementById("string").innerHTML = "Sorry, your browser does not support Web Storage...";
     } 
 });
 
 function setUp(food) {
-    //display images
-    console.log(food);
-    console.log(food.image);
+    //display images and set values
     document.getElementById("foodBanner").src = food.image;
     document.getElementById("foodBanner2").src = food.image;
     document.getElementById("foodBanner3").src = food.image;
     document.getElementById("fact1").innerText = food.fact1;
     document.getElementById("fact2").innerText = food.fact2;
-    document.getElementById("radio1").value = food.Qimages[0];
-    document.getElementById("radio2").value = food.Qimages[1];
-    document.getElementById("radio3").value = food.Qimages[2];
+    radio1.value = food.Qimages[0];
+    radio2.value = food.Qimages[1];
+    radio3.value = food.Qimages[2];
     document.getElementById("iradio1").src = "imgs/icon_imgs/"+food.Qimages[0]+".svg";
     document.getElementById("iradio2").src = "imgs/icon_imgs/"+food.Qimages[1]+".svg";
     document.getElementById("iradio3").src = "imgs/icon_imgs/"+food.Qimages[2]+".svg";
@@ -59,11 +63,10 @@ function nextPrev(n) {
   currentTab = currentTab + n;
   // if you have reached the end of the form...
   if (currentTab >= x.length) {
-    // ... the form gets submitted:!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-//    document.getElementById("regForm").submit();
+    // ... the form gets submitted!
+    document.getElementById("regForm").submit();
       checkAnswers();
       location.href = "result.html";
-//    return false;
   }
   // Otherwise, display the correct tab:
   showTab(currentTab);
@@ -81,11 +84,14 @@ function fixStepIndicator(n) {
 
 var score = 0,
     answer1 = document.getElementById("calories"),
-    answer2 = $('input[name=radioName]:checked', '#regForm').val(),
+    answer2 = "boo",
     answer3 = document.getElementById("country");
 
+//check my answers and update the score
 function checkAnswers() {
+    findQ2Answer();
     check1 = answer1.value +" per serving";
+    
     if(check1 == food.Q1) {
         score++;
         console.log("q1 correct");
@@ -98,11 +104,24 @@ function checkAnswers() {
         score++;
         console.log("q3 correct");
     }
-    console.log(check1, score);
+    console.log(answer2, score);
     
     if (typeof(Storage) !== "undefined") {
         localStorage.setItem("score", score);
     } else {
         document.getElementById("string").innerHTML = "Sorry, your browser does not support Web Storage...";
     } 
+}
+
+// what radio button is checked?
+function findQ2Answer () {
+    if (radio1.checked) {
+        answer2 = radio1.value;
+        
+    } else if (radio2.checked) {
+        answer2 = radio2.value;
+        
+    } else if (radio3.checked) {
+        answer2 = radio3.value;
+    }
 }

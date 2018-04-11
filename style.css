@@ -192,22 +192,19 @@ input.invalid {
     background-color: #fff;
 }
 
-.radio_item{
-    display: none !important;
+label > input{ /* HIDE RADIO */
+    visibility: hidden; /* Makes input not-clickable */
+    position: absolute; /* Remove input from document flow */
 }
-
-.label_item {
+label > input + img{ /* IMAGE STYLES */
     width: 200px;
     height: 200px;
-    opacity: 0.1;
+    opacity: 0.5;
 }
-label {
-    width: 200px;
-    height: 200px;
-}
-.radio_item:checked + label {
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
     opacity: 1;
 }
+
 #fact1, fact2 {
     padding: 0px 10%;
 }
