@@ -64,7 +64,6 @@ function nextPrev(n) {
   // if you have reached the end of the form...
   if (currentTab >= x.length) {
     // ... the form gets submitted!
-    document.getElementById("regForm").submit();
       checkAnswers();
       location.href = "result.html";
   }
@@ -87,7 +86,7 @@ var score = 0,
     answer2 = "boo",
     answer3 = document.getElementById("country");
 
-//check my answers and update the score
+//check my answers and update the score then save the score
 function checkAnswers() {
     findQ2Answer();
     check1 = answer1.value +" per serving";
@@ -100,11 +99,11 @@ function checkAnswers() {
         score++;
         console.log("q2 correct");
     }
-    if(answer3.value == food.Q3) {
+    if(answer3.value.toUpperCase() == food.Q3) {
         score++;
         console.log("q3 correct");
     }
-    console.log(answer2, score);
+    console.log(check1, answer2, answer3.value, score);
     
     if (typeof(Storage) !== "undefined") {
         localStorage.setItem("score", score);
