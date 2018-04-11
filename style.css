@@ -15,6 +15,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    z-index: 2;
 }
 .menuButton {
     height: 90px;
@@ -94,6 +95,7 @@ h1 {
 .banner {
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 /*================== HOME ==================*/
 .logo {
@@ -172,33 +174,38 @@ input.invalid {
     height: 50px;
 }
 .step {
-  height: 50px;
-  width: 50px;
-  margin: 20px 10px;
-  background-color: #fff;
-  border: 1px solid #8eca3a;  
-  border-radius: 50%;
-  display: inline-block;
-  opacity: 0.5;
+    height: 50px;
+    width: 50px;
+    margin: 20px 10px;
+    background-color: #fff;
+    border: 1px solid #8eca3a;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
 }
 .step.active {
-  opacity: 1;
-  border: 1px solid #fff;
+    opacity: 1;
+    border: 1px solid #fff;
 }
 .step.finish {
-  background-color: #fff;
+    background-color: #fff;
 }
 
 .radio_item{
-display: none !important;
+    display: none !important;
 }
 
 .label_item {
-opacity: 0.1;
+    width: 200px;
+    height: 200px;
+    opacity: 0.1;
 }
 
 .radio_item:checked + label {
-opacity: 1;
+    opacity: 1;
+}
+#fact1, fact2 {
+    padding: 0px 10%;
 }
 
 /*================== RESULT ==================*/

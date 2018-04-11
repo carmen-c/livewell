@@ -18,6 +18,8 @@ function setUp(food) {
     document.getElementById("foodBanner").src = food.image;
     document.getElementById("foodBanner2").src = food.image;
     document.getElementById("foodBanner3").src = food.image;
+    document.getElementById("fact1").innerText = food.fact1;
+    document.getElementById("fact2").innerText = food.fact2;
     document.getElementById("iradio1").src = "imgs/icon_imgs/"+food.Qimages[0]+".svg";
     document.getElementById("iradio2").src = "imgs/icon_imgs/"+food.Qimages[1]+".svg";
     document.getElementById("iradio3").src = "imgs/icon_imgs/"+food.Qimages[2]+".svg";
@@ -48,8 +50,6 @@ function showTab(n) {
 function nextPrev(n) {
   // This function will figure out which tab to display
   var x = document.getElementsByClassName("tab");
-  // Exit the function if any field in the current tab is invalid:
-//  if (n == 1 && !validateForm()) return false;
   // Hide the current tab:
   x[currentTab].style.display = "none";
   // Increase or decrease the current tab by 1:
@@ -60,7 +60,7 @@ function nextPrev(n) {
 //    document.getElementById("regForm").submit();
       checkAnswers();
       location.href = "result.html";
-//    return false;
+    return false;
   }
   // Otherwise, display the correct tab:
   showTab(currentTab);
@@ -78,19 +78,21 @@ function fixStepIndicator(n) {
 
 var score = 0,
     answer1 = document.getElementById("calories"),
-    answer2 = document.getElementById(""),
-    answer3 = document.getElementById("time");
+    answer2 = document.getElementById("fact1"),
+    answer3 = document.getElementById("country");
 
 function checkAnswers() {
-    if(answer1.value == food.Q1) {
+    check1 = answer1.value +" per serving";
+    if(check1 == food.Q1) {
         score++;
     }
     if(answer2.value == food.Q2) {
-        score ++;
+        score++;
     }
     if(answer3.value == food.Q3) {
         score++;
     }
+    console.log(check1, score);
     
     if (typeof(Storage) !== "undefined") {
         localStorage.setItem("score", score);

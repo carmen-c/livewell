@@ -19,18 +19,17 @@
             </div>
             
             <div class="content">
-                <form id="regForm">
+                <form id="regForm" onSubmit="javascript:checkAnswers()">
                   <!-- One "tab" for each step in the form: -->
                   <div class="tab">
                     <img class="banner" id="foodBanner" src="#"/>  
                     <p id="q1">How many calories does your selection have?</p>
-                    <input type="number" id="calories" min="0" max="9999" class="input"/>
+                    <input type="number" id="calories" min="0" max="9999" class="input" placeholder="per serving"/>
                   </div>
                     
                   <div class="tab">
                       <h1>Did you know?</h1>
-                   
-                      
+                      <p id="fact1"></p>
                   </div>
                     
                   <div class="tab">
@@ -54,12 +53,12 @@
                     
                   <div class="tab">
                       <h1>Almost there!</h1>
-                    
+                      <p id="fact2"></p>
                   </div>
                   <div class="tab">
                     <img class="banner" id="foodBanner3" src="#"/> 
                     <p id="q3">Where does this recipe come from?</p>
-                    <input type="text" id="time" class="input" placeholder="Your answer"/>
+                    <input type="text" id="country" class="input" placeholder="Your answer"/>
                   </div>
                     
                     <div id="buttonBox">
