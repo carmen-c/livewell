@@ -1,11 +1,12 @@
 //these are empty at the beginning
 var boxArray = [];
 var foodArray = [];
+var searchArray = [];
 
 $(document).ready(function() {
         
     //get food objects
-    $.getJSON("http://localhost:8888/livewell/food.json", function(json) {
+    $.getJSON("food.json", function(json) {
         foodArray = json;
         loop(foodArray);
     });
@@ -49,12 +50,21 @@ $(document).ready(function() {
 }
 }); 
 
+document.getElementById("search").addEventListener("keyup", function(ev) {
+   if (ev.keyCode = 13) {
+       var result = search(this.value);
+       loop(searchArray);
+       console.log(searchArray);
+   }
+});
+
 
 function createNew (foodItem) {
     //make a new div for each food object and add them to the boxArray
     var newBox = document.createElement('div');
     newBox.className = 'foodDiv';
     newBox.style.backgroundImage = 'url('+foodItem.image+')';
+    newBox.style.backgroundSize = "cover";
     
     //each new div will move to the next page if clicked on
     newBox.addEventListener("click", function() {
@@ -79,14 +89,22 @@ function showFoods () {
     } 
 }
 
-
 function loop (array) {
     //clear boxArray and recreate the divs after sorting
     boxArray = [];
     for (x=0; x < array.length; x++){
-        createNew(foodArray[x]);
+        createNew(array[x]);
     }
     
     //ok now you can show them
     showFoods();
+}
+
+function search (keyword) {
+    searchArray = [];
+    for (i=0;i<foodArray.length;i++) {
+        if (foodArray[i].name === keyword) {
+             searchArray.push(foodArray[i]);
+        }
+    }
 }

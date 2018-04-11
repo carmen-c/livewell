@@ -22,31 +22,40 @@
                 <form id="regForm">
                   <!-- One "tab" for each step in the form: -->
                   <div class="tab">
-                    <img class="banner" src="#"/>  
-                    <p id="q1">What ingredient is used in this dish?</p>
-                    <input type="radio" class="radio_item" value="" name="item" id="radio1">
-                    <label class="label_item" for="radio1"> <img src="img_url_here"> </label>
+                    <img class="banner" id="foodBanner" src="#"/>  
+                    <p id="q1">How many calories does your selection have?</p>
+                    <input type="number" id="calories" min="0" max="9999" class="input"/>
                   </div>
                   <div class="tab">fact
                     <input placeholder="E-mail..." name="email" class="input">
                     <input placeholder="Phone..." name="phone" class="input">
                   </div>
                   <div class="tab">
-                    <img class="banner" src="#"/>  
-                    <p id="q2">What ingredient is used in this dish?</p>
-                    <input placeholder="dd" class="input" name="dd">
-                    <input placeholder="mm" class="input" name="nn">
-                    <input placeholder="yyyy" class="input" name="yyyy">
+                    <img class="banner" id="foodBanner2" src="#"/>  
+                    <p id="q2">What is the ingredient of the recipe you chose?</p>
+                        <div class="choices">
+                            <label> 
+                            <input type="radio" class="radio_item" name="item" id="radio1">
+                            <img src="#" id="iradio1"/> 
+                            </label>
+                            <label class="label_item" for="radio2">
+                            <input type="radio" class="radio_item" value="" name="item" id="radio2">
+                            <img src="#" id="iradio2"/> 
+                            </label>
+                            <label class="label_item" for="radio3">
+                            <input type="radio" class="radio_item" value="" name="item" id="radio3">
+                            <img src="#" id="iradio3"/> 
+                            </label>
+                        </div> 
                   </div>
                   <div class="tab">fact
                     <input placeholder="Username..." class="input" name="uname">
                     <input placeholder="Password..." class="input" name="pword" type="password">
                   </div>
                   <div class="tab">
-                    <img class="banner" src="#"/> 
-                    <p id="q3">What ingredient is used in this dish?</p>
-                    <input placeholder="Username..." class="input" name="uname">
-                    <input placeholder="Password..." class="input" name="pword" type="password">
+                    <img class="banner" id="foodBanner3" src="#"/> 
+                    <p id="q3">How long does it take to create this recipe?</p>
+                    <input type="number" id="time" min="0" max="9999" class="input"/>
                   </div>
                   
                     <div id="buttonBox">

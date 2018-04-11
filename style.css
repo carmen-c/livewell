@@ -133,7 +133,10 @@ h1 {
     text-align: center;
     padding-bottom: 2.5em;
 }
-
+#recipeBox {
+    width: 80%;
+    margin: 50px 0px;
+}
 /*================== QUIZ ==================*/
 #regForm {
     width: 100%;
