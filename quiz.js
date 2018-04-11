@@ -20,6 +20,9 @@ function setUp(food) {
     document.getElementById("foodBanner3").src = food.image;
     document.getElementById("fact1").innerText = food.fact1;
     document.getElementById("fact2").innerText = food.fact2;
+    document.getElementById("radio1").value = food.Qimages[0];
+    document.getElementById("radio2").value = food.Qimages[1];
+    document.getElementById("radio3").value = food.Qimages[2];
     document.getElementById("iradio1").src = "imgs/icon_imgs/"+food.Qimages[0]+".svg";
     document.getElementById("iradio2").src = "imgs/icon_imgs/"+food.Qimages[1]+".svg";
     document.getElementById("iradio3").src = "imgs/icon_imgs/"+food.Qimages[2]+".svg";
@@ -60,7 +63,7 @@ function nextPrev(n) {
 //    document.getElementById("regForm").submit();
       checkAnswers();
       location.href = "result.html";
-    return false;
+//    return false;
   }
   // Otherwise, display the correct tab:
   showTab(currentTab);
@@ -78,19 +81,22 @@ function fixStepIndicator(n) {
 
 var score = 0,
     answer1 = document.getElementById("calories"),
-    answer2 = document.getElementById("fact1"),
+    answer2 = $('input[name=radioName]:checked', '#regForm').val(),
     answer3 = document.getElementById("country");
 
 function checkAnswers() {
     check1 = answer1.value +" per serving";
     if(check1 == food.Q1) {
         score++;
+        console.log("q1 correct");
     }
-    if(answer2.value == food.Q2) {
+    if(answer2 == food.Q2) {
         score++;
+        console.log("q2 correct");
     }
     if(answer3.value == food.Q3) {
         score++;
+        console.log("q3 correct");
     }
     console.log(check1, score);
     

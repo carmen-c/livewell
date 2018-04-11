@@ -14,18 +14,15 @@ $(document).ready(function() {
     //depending on dropdown choice, change sorting rules
     document.getElementsByTagName("select")[0].onchange = function () {
     var index = this.selectedIndex;
-    console.log(index);
-    //sort ascending
+
     if (index == 1) {
         foodArray.sort(ascending);
         loop(foodArray);
        
-    //sort descending
     } else if (index == 2) {
         foodArray.sort(descending);
         loop(foodArray);
         
-    //sort by breakfast, lunch, or dinner
     } else if (index == 3) {
         foodArray.sort(compare);
         loop(foodArray);
@@ -33,29 +30,32 @@ $(document).ready(function() {
 }
 }); 
 
+//sort ascending
 function descending(a, b){
     if(a.calories > b.calories) return -1;
     if(a.calories< b.calories) return 1;
     return 0;
 }
 
+//sort descending
 function ascending(a,b) {
     if(a.calories < b.calories) return -1;
     if(a.calories > b.calories) return 1;
     return 0;
 }
 
+//sort by breakfast, lunch, or dinner
 function compare(a,b) {
     if(a.type < b.type) return -1;
     if(a.type > b.type) return 1;
     return 0;
 }
 
+//search for the food and display it
 document.getElementById("search").addEventListener("keyup", function(ev) {
    if (ev.keyCode = 13) {
-       var result = search(this.value);
+       var result = search(this.value.toUpperCase());
        loop(searchArray);
-       console.log(searchArray);
    }
 });
 
@@ -101,6 +101,7 @@ function loop (array) {
     showFoods();
 }
 
+//search foodArray using the input
 function search (keyword) {
     searchArray = [];
     for (i=0;i<foodArray.length;i++) {
