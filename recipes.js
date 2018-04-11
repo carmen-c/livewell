@@ -12,43 +12,44 @@ $(document).ready(function() {
     });
     
     //depending on dropdown choice, change sorting rules
-    document.getElementsByTagName("select")[0].onchange  = function () {
+    document.getElementsByTagName("select")[0].onchange = function () {
     var index = this.selectedIndex;
-    
+    console.log(index);
     //sort ascending
-    if (index == 0) {
-        foodArray.sort(function(a, b){
-            var keyA = a.calories,
-                keyB = b.calories;
-            if(keyA < keyB) return -1;
-            if(keyA > keyB) return 1;
-            return 0;
-        });
+    if (index == 1) {
+        foodArray.sort(ascending);
         loop(foodArray);
        
     //sort descending
-    } else if (index == 1) {
-        foodArray.sort(function(a, b){
-            var keyA = a.calories,
-                keyB = b.calories;
-            if(keyA > keyB) return -1;
-            if(keyA < keyB) return 1;
-            return 0;
-        });
+    } else if (index == 2) {
+        foodArray.sort(descending);
         loop(foodArray);
         
     //sort by breakfast, lunch, or dinner
-    } else if (index == 2) {
-        foodArray.sort(function(a, b){
-            var textA = a.type,
-                textB = b.type;
-            return textA.localeCompare(textB);
-        });
+    } else if (index == 3) {
+        foodArray.sort(compare);
         loop(foodArray);
-        
     }
 }
 }); 
+
+function descending(a, b){
+    if(a.calories > b.calories) return -1;
+    if(a.calories< b.calories) return 1;
+    return 0;
+}
+
+function ascending(a,b) {
+    if(a.calories < b.calories) return -1;
+    if(a.calories > b.calories) return 1;
+    return 0;
+}
+
+function compare(a,b) {
+    if(a.type < b.type) return -1;
+    if(a.type > b.type) return 1;
+    return 0;
+}
 
 document.getElementById("search").addEventListener("keyup", function(ev) {
    if (ev.keyCode = 13) {
