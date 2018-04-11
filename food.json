@@ -1,10 +1,10 @@
 [
 	{
-		"name": "French Toast",
+		"name": "FRENCH TOAST",
 		"image": "./imgs/food_imgs/french_toast.jpg",
 		"type": "Breakfast",
 		"calories": "446",
-		"ingredients": ["Bread", "Egg", "Ground Cinnamon", "Ground Nutmeg", "Sugar", "Butter", "Whole Milk", "Vanilla", "Maple Syrup"],
+		"ingredients": ["8 slices bread", "4 eggs", "1 tsp ground cinnamon", "1/4 tsp ground nutmeg", "2 tbsps sugar", "4 tbsps butter", "1/4 cup milk", "1/2 tsp vanilla extract", "1/2 cup maple syrup"],
 		"servings": "4 servings",
 		"Q1": "446 per serving",
 		"Q2": "Bread",
@@ -16,15 +16,15 @@
 		"recipeHTML": "<p>1. In a small bowl, combine, cinnamon, nutmeg, and sugar and set aside briefly.</p><p>2. In a 10-inch or 12-inch skillet, melt butter over medium heat.</p><p>3. Whisk together cinnamon mixture, eggs, milk, and vanilla and pour into a shallow container such as a pie plate.</p><p>4. Dip bread in egg mixture. Fry slices until golden brown, then flip to cook the other side. Serve with syrup.</p>"
 	},
 	{
-		"name": "Pancake",
+		"name": "PANCAKE",
 		"image": "./imgs/food_imgs/pancakes.jpg",
 		"type": "Breakfast",
 		"calories": "344",
-		"ingredients": ["All-purpose Flour", "Sugar", "Baking Powder", "Salt", "Ground Nutmeg", "Egg", "Milk", "Vanilla", "Unsalted Butter"],
+		"ingredients": ["1 1/2 cups all-purpose flour", "3 tbsps sugar", "1 tbsp baking powder", "1/4 tsp salt", "1/8 tsp ground nutmeg", "2 eggs", "1 1/4 cups milk", "1/2 tsp vanilla", "3 tbsps unsalted butter"],
 		"servings": "4 servings",
 		"Q1": "344 per serving",
 		"Q2": "Flour",
-		"Q3": "Roman",
+		"Q3": "Italy",
 		"Qimages": ["flour", "beef", "grapes"],
 		"suggestion": ["Banana > Flour: -30 calories", "Apple Sauce > Flour: -34 calories", "Greek Yogurt > Flour: -43 calories"],
 		"fact1": "September 26th is National Pancake Day.",
@@ -32,11 +32,11 @@
 		"recipeHTML": "<p>1. In a large bowl, whisk together the flour, sugar, baking powder, salt, and nutmeg.</p><p>2. In another bowl, beat the eggs and then whisk in the milk and vanilla.</p><p>3. Melt the butter in a large cast iron skillet or griddle over medium heat.</p><p>4. Whisk the butter into the milk mixture. Add the wet ingredients to the flour mixture, and whisk until a thick batter is just formed.</p><p>5. Keeping the skillet at medium heat, ladle about 1/4 cup of the batter onto the skillet, to make a pancake. Make 1 or 2 more pancakes, taking care to keep them evenly spaced apart. Cook, until bubbles break the surface of the pancakes, and the undersides are golden brown, about 2 minutes. Flip with a spatula and cook about 1 minute more on the second side. Serve immediately or transfer to a platter and cover loosely with foil to keep warm. Repeat with the remaining batter, adding more butter to the skillet as needed.</p><p>6. Procedure for adding fruit to pancakes: Once the bubbles break the surface of the pancakes, scatter the surface with sliced or diced fruit, or chocolate chips, nuts, etc. Flip with a spatula and cook for 1 minute more, being careful not to burn toppings.</p>"
 	},
 	{
-		"name": "Classic Burger",
+		"name": "CLASSIC BURGER",
 		"image": "./imgs/food_imgs/burger.jpg",
 		"type": "Lunch",
 		"calories": "480",
-		"ingredients": ["Ground Beef", "Onion", "Bread Crumbs", "Salt", "Worchestershire Sauce", "Egg", "Garlic", "Pepper", "Hamburger Buns", "Mayonnaise", "Ketchup", "Lettuce", "Tomato", "Red Onion"],
+		"ingredients": ["1 pound ground beef", "1/4 cup minced onion", "1/4 cup bread crumbs", "1/2 tsp salt", "1 tbsp Worchestershire sauce", "1 egg", "2 cloves minced garlic", "1/4 tsp pepper", "4 burger buns", "1/4 cup mayonnaise", "1/4 cup ketchup", "4 lettuce leaves", "1 tomato", "4 slices red onion"],
 		"servings": "4 servings",
 		"Q1": "480 per serving",
 		"Q2": "Beef",
@@ -48,11 +48,11 @@
 		"recipeHTML": "<p>1. In a bowl, mix ground beef, egg, onion, bread crumbs, Worcestershire, garlic, 1/2 teaspoon salt, and 1/4 teaspoon pepper until well blended. Divide mixture into four equal portions and shape each into a patty about 4 inches wide.</p><p>2. Lay burgers on an oiled barbecue grill over a solid bed of hot coals or high heat on a gas grill (you can hold your hand at grill level only 2 to 3 seconds); close lid on gas grill. Cook burgers, turning once, until browned on both sides and no longer pink inside (cut to test), 7 to 8 minutes total. Remove from grill.</p><p>3. Lay buns, cut side down, on grill and cook until lightly toasted, 30 seconds to 1 minute.<br/>4. Spread mayonnaise and ketchup on bun bottoms. Add lettuce, tomato, burger, onion, and salt and pepper to taste. Set bun tops in place.</p>"
 	},
 	{
-		"name": "Spaghetti Bolognese",
+		"name": "SPAGHETTI BOLOGNESE",
 		"image": "./imgs/food_imgs/spaghetti.jpg",
 		"type": "Lunch",
 		"calories": "420",
-		"ingredients": ["Ground Beef", "Onion", "Carrot", "Celery", "Worchestershire Sauce", "Extra-virgin Olive Oil", "Garlic", "Salt", "Tomato Paste", "Red Wine", "Water", "Bay Leaves", "Thyme", "Spaghetti", "Parmesan Cheese"],
+		"ingredients": ["3 pounds ground chuck", "2 onions", "2 carrots", "3 ribs celery", "Extra-virgin olive oil", "4 cloves garlic", "Salt", "2 cups tomato paste", "3 cups red wine", "Water", "3 bay leaves", "1 bunch thyme", "1 pound spaghetti", "1/2 grated parmesan cheese"],
 		"servings": "6 servings",
 		"Q1": "420 per serving",
 		"Q2": "Spaghetti",
@@ -64,11 +64,11 @@
 		"recipeHTML": "<p>1. In a food processor, puree onion, carrots, celery, and garlic into a coarse paste. In a large pan over medium heat, coat pan with oil. Add the pureed veggies and season generously with salt. Bring the pan to a medium-high heat and cook until all the water has evaporated and they become nice and brown, stirring frequently.</p><p>2. Add the ground beef and season again generously with salt.</p><p>3. Add the tomato paste and cook until brown. Add the red wine. Cook until the wine has reduced by half.</p><p>4. Add water to the pan until the water is about 1 inch above the meat. Toss in the bay leaves and the bundle of thyme and stir to combine everything. Bring to a boil and reduce to a simmer, stirring occasionally. As the water evaporates you will gradually need to add more, about 2 to 3 cups at a time.</p><p>5. Boiled water with high heat. Add a lot of salt. When the water is at a rolling boil add the spaghetti and cook for 1 minute less than it calls for on the package. Reserve 1/2 cup of the pasta cooking water.</p><p>6. Drain the pasta and add to the pot with the remaining ragu. Stir or toss the pasta to coat with the sauce. Add some of the reserved sauce, if needed, to make it about an even ratio between pasta and sauce. Add the reserved pasta cooking water and cook the pasta and sauce together over a medium heat until the water has reduced. Turn off the heat and give a big sprinkle of Parmigiano and a generous drizzle of the high quality finishing olive oil. Toss or stir vigorously. Divide the pasta and sauce into serving bowls or 1 big pasta bowl. Top with remaining grated Parmigiano. Serve immediately.</p>"
 	},
 	{
-		"name": "Steak au Poivre",
+		"name": "STEAK AU POIVRE",
 		"image": "./imgs/food_imgs/steak.jpg",
 		"type": "Dinner",
 		"calories": "330",
-		"ingredients": ["Tenderloin Beef", "Kosher Salt", "Peppercorns", "Unsalted Butter", "Olive Oil", "Cognac", "Garlic", "Heavy Cream"],
+		"ingredients": ["4 tenderloin steaks", "Kosher salt", "2 tbps whole peppercorns", "1 tbsp unsalted butter", "1 tsp olive oil", "1/3 cup Cognac", "1 cup heavy cream"],
 		"servings": "4 servings",
 		"Q1": "330 per serving",
 		"Q2": "Tenderloin Beef",
@@ -80,11 +80,11 @@
 		"recipeHTML": "<p>1. Remove the steaks from the refrigerator for at least 30 minutes and up to 1 hour prior to cooking. Sprinkle all sides with salt.</p><p>2. Coarsely crush the peppercorns with a mortar and pestle, the bottom of a cast iron skillet, or using a mallet and pie pan. Spread the peppercorns evenly onto a plate. Press the fillets, on both sides, into the pepper until it coats the surface. Set aside.</p><p>3. In a medium skillet over medium heat, melt the butter and olive oil. As soon as the butter and oil begin to turn golden and smoke, gently place the steaks in the pan. For medium-rare, cook for 4 minutes on each side. Once done, remove the steaks to a plate, tent with foil and set aside. Pour off the excess fat but do not wipe or scrape the pan clean.</p><p>4. Off of the heat, add 1/3 cup Cognac to the pan and carefully ignite the alcohol with a long match or firestick. Gently shake pan until the flames die. Return the pan to medium heat and add the cream. Bring the mixture to a boil and whisk until the sauce coats the back of a spoon, approximately 5 to 6 minutes. Add the teaspoon of Cognac and season, to taste, with salt. Add the steaks back to the pan, spoon the sauce over, and serve.</p>"
 	},
 	{
-		"name": "Oven-baked Salmon",
+		"name": "OVEN-BAKED SALMON",
 		"image": "./imgs/food_imgs/salmon.jpg",
 		"type": "Dinner",
 		"calories": "177",
-		"ingredients": ["Salmon Fillet", "Coarse-grained Salt", "Ground Peppers", "Squash", "Shallot", "Red Wine Vinegar", "Capers", "Parsley", "Toasted Almonds", "Extra-virgin Olive Oil"],
+		"ingredients": ["12 oz salmon fillet", "Coarse-grained salt", "Ground peppers", "Baked squash", "1 Shallot", "1 tbsp red wine vinegar", "2 tbsps capers", "1 cup fresh parsley", "1/2 cup toasted almonds", "Extra-virgin olive oil"],
 		"servings": "4 servings",
 		"Q1": "177 per serving",
 		"Q2": "Salmon",
@@ -93,10 +93,10 @@
 		"suggestion": ["Your selections already used the best ingredients it can gets!"],
 		"fact1": "Salmon is one of the best sources of the long-chain omega-3 fatty acids EPA and DHA.",
 		"fact2": "Astaxanthin is a compound linked to several powerful health effects. As a member of the carotenoid family of antioxidants, astaxanthin gives salmon its red pigment. Salmon contains between 0.4–3.8 mg of astaxanthin per 3.5 ounces, with sockeye salmon providing the highest amount.",
-		"recipeHTML": "<p>Prepare the salmon:</p><p>1. Preheat the oven to 450 degrees Farenheit.</p><p>2. Season salmon with salt and pepper. Place salmon, skin side down, on a non-stick baking sheet or in a non-stick pan with an oven-proof handle. Bake until salmon is cooked through, about 12 to 15 minutes. Serve with the Toasted Almond Parsley Salad and squash, if desired.</p><p>Prepare the Toasted Almond Parsley Salad:</p><p>1. Mince a shallot and add to a small bowl. Pour the vinegar over the shallots and add a pinch of salt. Let sit for 30 minutes.</p><p>2. Roughly chop the capers, parsley and almonds and add to the shallots. Add the olive oil, tasting as you go. Mix again and adjust the seasonings.</p>"
+		"recipeHTML": "<p><b>Prepare the salmon:</b></p><p>1. Preheat the oven to 450 degrees Farenheit.</p><p>2. Season salmon with salt and pepper. Place salmon, skin side down, on a non-stick baking sheet or in a non-stick pan with an oven-proof handle. Bake until salmon is cooked through, about 12 to 15 minutes. Serve with the Toasted Almond Parsley Salad and squash, if desired.</p><p><b>Prepare the Toasted Almond Parsley Salad:</b></p><p>1. Mince a shallot and add to a small bowl. Pour the vinegar over the shallots and add a pinch of salt. Let sit for 30 minutes.</p><p>2. Roughly chop the capers, parsley and almonds and add to the shallots. Add the olive oil, tasting as you go. Mix again and adjust the seasonings.</p>"
 	},
 	{
-		"name": "Steamed Bun/Bao Zi",
+		"name": "STEAMED BUNS",
 		"image": "./imgs/food_imgs/steambun.jpg",
 		"type": "Breakfast",
 		"calories": "150",
@@ -109,10 +109,10 @@
 		"suggestion": ["Red Beans > Pork: -127 calories", "Black Beans > Pork: -125 calories", "Lotus Seed > Pork: -166 calories"],
 		"fact1": "According to legend, they were invented by the Chinese scholar and military strategist Zhuge Liang during the Three Kingdoms period.",
 		"fact2": "In Indonesia the dish has been adopted into Indonesian cuisine through the integration of Chinese culture. It has been adopted through the Hokkien name of bakpao.",
-		"recipeHTML": "<p>Prepare the filling:</p><p>1. Put the rack of spareribs into a large resealable plastic bag. Pour in the hoisin sauce, close the bag and toss gently to coat. Put the bag into a bowl and marinate the ribs in the refrigerator for 3 hours or up to overnight.</p><p>2. Preheat the oven to 300 degrees Farenheit</p><p>3. Put the ribs into a sheet pan along with all the marinade. Cover the pan with aluminum foil, slide it into the oven and bake until the meat easily separates from the bone, about 2 hours. Baste them every 30 minutes during the cooking process. Remove the ribs from the oven and let them rest.</p><p>4. When cool enough to handle, pull the rib meat from the bones and coarsely chop. Then, in a large bowl, toss the pork together with the cabbage and scallions. If the mixture seems too dry, add in a bit more hoisin sauce.</p><p>Prepare the dough:</p><p>1. Sprinkle the yeast over the warm water in a small bowl. After a few minutes, the yeast will begin to foam and bubble.</p><p>2. In a large bowl, whisk together the flour, sugar, and baking powder. Make a well in the center of the dry ingredients and add the warm milk, canola oil, and the activated yeast. Work the dough to produce a shaggy mass. Turn it out onto a floured board or countertop and knead until the dough becomes smooth, soft, and pliable, about 5 to 10 minutes. Put it into a lightly oiled bowl and turn it over once to coat. Cover the bowl in plastic wrap and allow the dough to rise undisturbed for 40 minutes to 1 hour. The mass should double in volume.</p><p>Prepare the assembly:</p><p>1. To form the buns, remove the dough from the bowl and roll it into 1 long rope. Cut the rope into 12 equal portions. Roll each piece and set them aside in a bowl. Using a rolling pin, flatten each ball into 4-inch circles, leaving the center slightly thicker then its edges. Put a heaping tablespoon of the filling into the center of each disk and pinch the tops closed to seal.</p><p>2. Arrange the buns on a parchment lined sheet tray and cover them with a clean kitchen towel. Alternatively, place the buns into a large 3-level bamboo steamer lined with parchment paper, 4 buns per level. Allow the buns to rest for 10 minutes.</p><p>3. In the meantime, fill a bamboo or stainless steel steamer with water and bring it to a boil. Cut 12 (4-inch) rounds from some parchment paper. When ready to cook, place the buns on the parchment rounds and into the steamer.</p>"
+		"recipeHTML": "<p><b>Prepare the filling:</b></p><p>1. Put the rack of spareribs into a large resealable plastic bag. Pour in the hoisin sauce, close the bag and toss gently to coat. Put the bag into a bowl and marinate the ribs in the refrigerator for 3 hours or up to overnight.</p><p>2. Preheat the oven to 300 degrees Farenheit</p><p>3. Put the ribs into a sheet pan along with all the marinade. Cover the pan with aluminum foil, slide it into the oven and bake until the meat easily separates from the bone, about 2 hours. Baste them every 30 minutes during the cooking process. Remove the ribs from the oven and let them rest.</p><p>4. When cool enough to handle, pull the rib meat from the bones and coarsely chop. Then, in a large bowl, toss the pork together with the cabbage and scallions. If the mixture seems too dry, add in a bit more hoisin sauce.</p><p><b>Prepare the dough:</b></p><p>1. Sprinkle the yeast over the warm water in a small bowl. After a few minutes, the yeast will begin to foam and bubble.</p><p>2. In a large bowl, whisk together the flour, sugar, and baking powder. Make a well in the center of the dry ingredients and add the warm milk, canola oil, and the activated yeast. Work the dough to produce a shaggy mass. Turn it out onto a floured board or countertop and knead until the dough becomes smooth, soft, and pliable, about 5 to 10 minutes. Put it into a lightly oiled bowl and turn it over once to coat. Cover the bowl in plastic wrap and allow the dough to rise undisturbed for 40 minutes to 1 hour. The mass should double in volume.</p><p><b>Prepare the assembly:</b></p><p>1. To form the buns, remove the dough from the bowl and roll it into 1 long rope. Cut the rope into 12 equal portions. Roll each piece and set them aside in a bowl. Using a rolling pin, flatten each ball into 4-inch circles, leaving the center slightly thicker then its edges. Put a heaping tablespoon of the filling into the center of each disk and pinch the tops closed to seal.</p><p>2. Arrange the buns on a parchment lined sheet tray and cover them with a clean kitchen towel. Alternatively, place the buns into a large 3-level bamboo steamer lined with parchment paper, 4 buns per level. Allow the buns to rest for 10 minutes.</p><p>3. In the meantime, fill a bamboo or stainless steel steamer with water and bring it to a boil. Cut 12 (4-inch) rounds from some parchment paper. When ready to cook, place the buns on the parchment rounds and into the steamer.</p>"
 	},
 	{
-		"name": "Chinese Cruller/You Tiao",
+		"name": "CHINESE CRULLERS",
 		"image": "./imgs/food_imgs/crullers.jpg",
 		"type": "Breakfast",
 		"calories": "305",
@@ -128,7 +128,7 @@
 		"recipeHTML": "<p>1. Dissolve 1 teaspoon of sugar and yeast in the warm milk. Keep in warm place for about 20 minutes, until bubbles form on the surface.</p><p>2. In a large bowl, add the flour, remaining 3 teaspoons of sugar, and 1 teaspoon oil. Add the yeast mixture and mix well. Let rise in a warm place for 2-3 hours, until the dough doubles or triples in size.</p><p>3. Sprinkle some flour over the dough, kneading the dough inside a bowl few times. Then transfer the dough to a floured surface and knead well for about 25 times. Cover with a damp towel and let sit in a warm place for 1 hour, until the dough is puffy.</p><p>4. Knead well for about 25 times, adding a teaspoon of oil to the dough. Roll out the dough on a floured surface to about 1 inch thick. Cut into 1 inch wide strips. Stack them two by two, and press the center with a chopstick (lengthwise).</p><p>5. Take the strip, one at a time, hold the two ends and stretch to 8-9 inches long. Repeat with all the strips.</p><p>6. Heat the oil to 400°F (200°C) and fry the strips in batches (1 or 2 at a time). Flip the strips over continuously many times with chopstick when frying until they have puffed up and become golden brown. Repeat with the remaining strips.</p><p>7. When done, drain on paper towels. Serve alongside warm soy milk, or alone. Enjoy!</p>"
 	},
 	{
-		"name": "Tonkotsu Ramen",
+		"name": "TONKOTSU RAMEN",
 		"image": "./imgs/food_imgs/ramen.jpg",
 		"type": "Lunch",
 		"calories": "552",
@@ -144,7 +144,7 @@
 		"recipeHTML": "<p>1. Place pork and chicken bones in a large stockpot and cover with cold water. Place on a burner over high heat and bring to a boil. Remove from heat as soon as boil is reached.</p><p>2. While pot is heating, heat vegetable oil in a medium cast iron or non-stick skillet over high heat until lightly smoking. Add onions, garlic, and ginger. Cook, tossing occasionally until deeply charred on most sides, about 15 minutes total. Set aside.</p><p>3. Once pot has come to a boil, dump water down the drain. Carefully wash all bones under cold running water, removing any bits of dark marrow or coagulated blood. Bones should be uniform grey/white after you've scrubbed them. Use a chopstick to help remove small bits of dark marrow from inside the trotters or near the chicken's spines.</p><p>4. Return bones to pot along with charred vegetables, leeks, scallion whites, mushrooms, and pork fatback. Top up with cold water. Bring to a rolling boil over high heat, skimming off any scum that appears (this should stop appearing within the first 20 minutes or so). Use a clean sponge or moist paper towels to wipe and black or gray scum off from around the rim of the pot. Reduce heat to a bare simmer and place a heavy lid on top.</p><p>5. Once the lid is on, check the pot after 15 minutes. It should be at a slow rolling boil. If not, increase or decrease heat slightly to adjust boiling speed. Boil broth until pork fatback is completely tender, about 4 hours. Carefully remove pork fat with a slotted spatula. Transfer fatback to a sealed container and refrigerate until step 7. Return lid to pot and continue cooking until broth is opaque with the texture of light cream, about 6 to 8 hours longer, topping up as necessary to keep bones submerged at all times. If you must leave the pot unattended for an extended period of time, top up the pot and reduce the heat to the lowest setting while you are gone. Return to a boil when you come back and continue cooking, topping up with more water as necessary.</p><p>6. Once broth is ready, cook over high heat until reduced to around 3 quarts. Strain through a fine mesh strainer into a clean pot. Discard solids. For an even cleaner soup, strain again through a chinois or a fine mesh strainer lined with several layers of cheese cloth. Skim liquid fat from top with a ladle and discard.</p><p>7. Finely chop cooked pork fatback and whisk into finished broth. To serve, season broth with condiments of your choice (salt, soy sauce, miso, sesame paste, grated fresh garlic, chili oil or a mixture of all, for instance) and serve with cooked ramen noodles and toppings as desired.</p>"
 	},
 	{
-		"name": "Sushi",
+		"name": "SUSHI ASSORTMENT",
 		"image": "./imgs/food_imgs/sushi.jpg",
 		"type": "Lunch",
 		"calories": "403",
@@ -160,7 +160,7 @@
 		"recipeHTML": "<p>Preparing Sushi Rice:</p><p>1. Stir the water, rice, sugar and salt together in a rice cooker cooker (or cook in a pot) until salt and sugar are dissolved.</p><p>2. Bring to a boil.</p><p>3. Reduce heat and simmer rice for about 20 minutes or until done.</p><p>4. Transfer the rice to a large bowl, preferably with a flat bottom.</p><p>5. Fluff the rice with a wet wooden spoon to loosen grains without crushing them.</p><p>6. Pour 1 cup of the vinegar over the rice.</p><p>7. Stir and fluff rice, incorporating the vinegar as evenly as possible.</p><p>8. Ask someone to stand by the rice bowl and fan the rice with a magazine while you are mixing, or use an electric fan.</p><p>9. Add more vinegar as necessary to coat the rice.</p><p>10. Cool to room temperature.</p><p>Preparing Sushi:</p><p>1. Lay a piece of nori on a sushi mat. Press a thin layer of rice evenly on top of the nori.</p><p>2. Spread a dab of wasabi over the rice.</p><p>3. Sprinkle with some soy sauce.</p><p>4. Lay a few pieces of 1 or several of the optional ingredients in a horizontal straight thin line across the rice, about 1 inch from the horizontal edge closest to you.</p><p>5. Using the mat to make a tight roll, roll the edge closest to you over the optional filling as tightly as possible.</p><p>6. Continue rolling away from you until a roll has formed.</p><p>7. Remove the sushi roll from the sushi mat and slice it cross-wise into 1 1/2-inch pieces.</p><p>8. Serve it with soy sauce, wasabi, and pickled ginger.</p>"	
 	},
 	{
-		"name": "Sweet and Sour Pork",
+		"name": "SWEET AND SOUR PORK",
 		"image": "./imgs/food_imgs/sweetsour_pork.jpg",
 		"type": "Dinner",
 		"calories": "663",
@@ -176,7 +176,7 @@
 		"recipeHTML": "<p>1. Place cubed pork in a medium bowl, and season with 1 teaspoon salt, 1/4 teaspoon sugar, and 1 teaspoon soy sauce. Mix in the egg white and green onions. Cover, and place in the refrigerator at least 1 hour.</p><p>2. Heat 1 quart oil to 365 degrees F (185 degrees C) in a large, heavy saucepan or deep fryer.</p><p>3. Coat the pork with 1/2 cup cornstarch, and fry in the heated oil about 10 minutes, until evenly browned. Drain on paper towels.</p><p>4. Heat 1 tablespoon oil in a wok over medium heat. Stir in the celery, green bell pepper, and onion, and cook until tender. Season with salt and sugar. Remove from heat, and set aside.</p><p>5. In a large saucepan, mix 1 cup water, 1/4 teaspoon salt, 3/4 cup sugar, apple cider vinegar, ketchup, and 1/2 teaspoon soy sauce. Bring to a boil, and stir in the cooked pork, celery mixture, and the pineapple chunks with juice. Return to boil, and mix in 2 tablespoons cornstarch and 1/4 cup water to thicken. Cook until well blended.</p>"	
 	},
 	{
-		"name": "Beef Pho",
+		"name": "BEEF PHO",
 		"image": "./imgs/food_imgs/pho.jpg",
 		"type": "Dinner",
 		"calories": "389",
