@@ -14,12 +14,13 @@ $(document).ready(function() {
 function setUp(food) {
     //display images
     console.log(food);
+    console.log(food.image);
     document.getElementById("foodBanner").src = food.image;
     document.getElementById("foodBanner2").src = food.image;
     document.getElementById("foodBanner3").src = food.image;
-    document.getElementById("iradio1").src = "imgs/ingredients/"+food.Qimages[0]+".svg";
-    document.getElementById("iradio2").src = "imgs/ingredients/"+food.Qimages[1]+".svg";
-    document.getElementById("iradio3").src = "imgs/ingredients/"+food.Qimages[2]+".svg";
+    document.getElementById("iradio1").src = "imgs/icon_imgs/"+food.Qimages[0]+".svg";
+    document.getElementById("iradio2").src = "imgs/icon_imgs/"+food.Qimages[1]+".svg";
+    document.getElementById("iradio3").src = "imgs/icon_imgs/"+food.Qimages[2]+".svg";
 }
 
 var currentTab = 0; // Current tab is set to be the first tab (0)
@@ -65,28 +66,6 @@ function nextPrev(n) {
   showTab(currentTab);
 }
 
-//function validateForm() {
-//  // This function deals with validation of the form fields
-//  var x, y, i, valid = true;
-//  x = document.getElementsByClassName("tab");
-//  y = x[currentTab].getElementsByTagName("input");
-//  // A loop that checks every input field in the current tab:
-//  for (i = 0; i < y.length; i++) {
-//    // If a field is empty...
-//    if (y[i].value == "") {
-//      // add an "invalid" class to the field:
-//      y[i].className += " invalid";
-//      // and set the current valid status to false
-//      valid = false;
-//    }
-//  }
-//  // If the valid status is true, mark the step as finished and valid:
-//  if (valid) {
-//    document.getElementsByClassName("step")[currentTab].className += " finish";
-//  }
-//  return valid; // return the valid status
-//}
-
 function fixStepIndicator(n) {
   // This function removes the "active" class of all steps...
   var i, x = document.getElementsByClassName("step");
@@ -99,16 +78,16 @@ function fixStepIndicator(n) {
 
 var score = 0,
     answer1 = document.getElementById("calories"),
-//    answer2 = document.getElementById(""),
+    answer2 = document.getElementById(""),
     answer3 = document.getElementById("time");
 
 function checkAnswers() {
     if(answer1.value == food.Q1) {
         score++;
     }
-//    if(answer2.value == food.Q2) {
-//        score ++;
-//    }
+    if(answer2.value == food.Q2) {
+        score ++;
+    }
     if(answer3.value == food.Q3) {
         score++;
     }
