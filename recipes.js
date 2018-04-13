@@ -105,7 +105,7 @@ function loop (array) {
 function search (keyword) {
     searchArray = [];
     for (i=0;i<foodArray.length;i++) {
-        if (foodArray[i].name === keyword) {
+        if (foodArray[i].name.match(keyword)) {
              searchArray.push(foodArray[i]);
         }
     }
