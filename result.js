@@ -8,6 +8,7 @@ $(document).ready (function() {
         $("#score").text("Your Score: "+myScore+" / 3");
         var food = JSON.parse(myFood);
         newSuggestion(food.suggestion);
+        showFeedback(parseInt(myScore));
         
     } else {
         document.getElementById("string").innerHTML = "Sorry, your browser does not support Web Storage...";
@@ -39,20 +40,20 @@ var feedback = document.getElementById("feedback"),
 
 function showFeedback(score) {
     if(score == 0) {
-        resultPic.src= "";
+        resultPic.src= "imgs/icon_imgs/try_again_emo.svg";
         feedback.innerText = "";
         
     } else if (score == 1) {
-        resultPic.src= "";
+        resultPic.src= "imgs/icon_imgs/try_again_emo.svg";
         feedback.innerText = "";
         
     } else if (score == 2) {
-        resultPic.src= "";
-        feedback.innerText = "";
+        resultPic.src= "imgs/icon_imgs/well_done_emo.svg";
+        feedback.innerText = "Good job!";
         
     } else if (score == 3) {
-        resultPic.src= "";
-        feedback.innerText = "";
+        resultPic.src= "imgs/icon_imgs/well_done_emo.svg";
+        feedback.innerText = "Well Done! You got all the questions correct!";
     }
 }
     
