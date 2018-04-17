@@ -224,6 +224,38 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
     margin: 50px;
 }
 
+#fact1Img, #fact2Img {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pot {
+    position: absolute;
+    width: 300px;
+    bottom: 0px;
+}
+#potlid {
+    position: absolute;
+    bottom: 0px;
+    width: 220px;
+    animation: updown 1s alternate infinite;
+}
+#iradio1:hover, #iradio2:hover, #iradio3:hover, #iradio1:active, #iradio2:active, #iradio3:active {
+    animation: shake 1s alternate infinite;
+}
+
+@keyframes updown {
+    0% {bottom: 140px;}
+    100% {bottom: 200px;}
+}
+@keyframes shake {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(15deg);}
+}
+
 /*================== RESULT ==================*/
 #playAgain {
     margin-top: 50px;
