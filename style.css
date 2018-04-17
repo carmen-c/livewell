@@ -208,8 +208,9 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
     opacity: 1;
 }
 
-#fact1, fact2 {
+#fact1, #fact2 {
     padding: 0px 10%;
+    text-align: center;
 }
 .choices {
     width: 100%;
@@ -226,6 +227,7 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
 }
 
 
+/*================== MEDIA QUERIES ==================*/
 @media (min-width: 1025px) and (max-width: 1280px) {
     .navBar {
         height: 50px;
