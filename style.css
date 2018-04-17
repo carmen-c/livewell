@@ -280,7 +280,7 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
 }
 
 /*================== MEDIA QUERIES ==================*/
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 770px) {
     .content {
         width: 100%;
         flex-direction: row;
