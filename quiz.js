@@ -17,8 +17,8 @@ $(document).ready(function() {
     } 
 });
 
+//display images and set values for the entire quiz
 function setUp(food) {
-    //display images and set values for the entire quiz
     var Qimg = food.Qimages;
     document.getElementById("foodBanner").src = food.image;
     document.getElementById("foodBanner2").src = food.image;
@@ -31,6 +31,29 @@ function setUp(food) {
     document.getElementById("iradio1").src = "imgs/icon_imgs/"+Qimg[0]+".svg";
     document.getElementById("iradio2").src = "imgs/icon_imgs/"+Qimg[1]+".svg";
     document.getElementById("iradio3").src = "imgs/icon_imgs/"+Qimg[2]+".svg";
+    
+    animation(Qimg);
+}
+
+//setup animation for fact 2
+function animation (images) {
+    var sec = 0;
+    var left = 0;
+    for(i=0;i<images.length;i++) {
+        sec++;
+        left = left + 60;
+        
+        newImg = document.createElement("img");
+        newImg.className = "item";
+        newImg.src = "imgs/icon_imgs/"+images[i]+".svg";
+        newImg.style.left = left + "px";
+        newImg.style.animation ="jiggle "+sec+"s alternate infinite";
+        document.getElementById("fact2Img").appendChild(newImg);
+    }
+}
+
+function removeImg(img) {
+    document.getElementById("fact2Img").removeChild(img);
 }
 
 var currentTab = 0; // Current tab is set to be the first tab (0)
