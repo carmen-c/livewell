@@ -118,6 +118,7 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .foodDiv {
     width: 100px;
