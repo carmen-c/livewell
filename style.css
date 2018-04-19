@@ -104,6 +104,13 @@ h1 {
     justify-content: center;
     width: 100%;
 }
+#ingredientBox, #suggestions {
+    border: 1px solid #8eca3a;
+    border-radius: 12px;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 2.5em;
+}
 /*================== HOME ==================*/
 .logo {
     padding: 5% 10%;
@@ -137,14 +144,7 @@ h1 {
     text-align: center;
 }
 /*================== RECIPE VIEW ==================*/
-#ingredientBox, #suggestions {
-    border: 1px solid #8eca3a;
-    border-radius: 12px;
-    width: 80%;
-    text-align: center;
-    padding-bottom: 2.5em;
-}
-#recipeBox {
+#recipeBox, #aboutBox {
     width: 80%;
     margin: 50px 0px;
 }
