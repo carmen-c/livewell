@@ -250,6 +250,13 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
     bottom: 0px;
     width: 220px;
 }
+#spoon {
+    position: absolute;
+    height: 220px;
+    transform: rotate(-45deg);
+    z-index: -1;
+    animation: lift 1s alternate infinite;
+}
 #iradio1:hover, #iradio2:hover, #iradio3:hover, #iradio1:active, #iradio2:active, #iradio3:active {
     animation: shake 1s alternate infinite;
 }
@@ -273,12 +280,16 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
     0% {top: 160px;}
     100% {top: 190px;}
 }
+@keyframes lift {
+    0% {transform: rotate(-45deg);}
+    100% {transform: rotate(25deg);}
+}
 /*================== RESULT ==================*/
 #playAgain {
     margin-top: 50px;
 }
 #resultPic {
-    width: 500px;
+    width: 100%;
 }
 
 /*================== MEDIA QUERIES ==================*/

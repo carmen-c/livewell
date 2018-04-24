@@ -42,20 +42,20 @@ var feedback = document.getElementById("feedback"),
 function showFeedback(score, name) {
     if(score == 0) {
         resultPic.src= "imgs/icon_imgs/try_again_emo.svg";
-        feedback.innerText = "";
+        feedback.innerText = "Oh no!"+ name +" why don't you try again? Remember, look through the recipe carefully and remember the facts.";
         
     } else if (score == 1) {
         resultPic.src= "imgs/icon_imgs/try_again_emo.svg";
-        feedback.innerText = "";
+        feedback.innerText = name +", you have put in some effort, but not enough. Try looking for the facts, it's important to remember them.";
         
     } else if (score == 2) {
         resultPic.src= "imgs/icon_imgs/well_done_emo.svg";
-        feedback.innerText = "Good job "+ name +"!";
+        feedback.innerText = "Good job "+ name +"! You almost got all the questions right.";
         console.log(name);
         
     } else if (score == 3) {
         resultPic.src= "imgs/icon_imgs/well_done_emo.svg";
-        feedback.innerText = "Well Done "+ name +"! You got all the questions correct!";
+        feedback.innerText = "Hurray!! "+ name +" you are well on your way to becoming a awesome home cook! Check out the suggestions below to see what you can subsitute in this recipe to lower your calorie intake.";
     }
 }
     

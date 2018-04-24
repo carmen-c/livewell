@@ -37,10 +37,10 @@ function setUp(food) {
 
 //setup animation for fact 2
 function animation (images) {
-    var sec = 0;
+    var sec = 1;
     var left = 0;
     for(i=0;i<images.length;i++) {
-        sec++;
+        sec = sec + 0.2;
         left = left + 60;
         
         newImg = document.createElement("img");

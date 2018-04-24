@@ -25,7 +25,7 @@
 		"Q1": "344 per serving",
 		"Q2": "flour",
 		"Q3": "ITALY",
-		"Qimages": ["flour", "beef", "grapes"],
+		"Qimages": ["flour", "grapes", "beef"],
 		"suggestion": ["Banana > Flour: -30 calories", "Apple Sauce > Flour: -34 calories", "Greek Yogurt > Flour: -43 calories"],
 		"fact1": "September 26th is National Pancake Day.",
 		"fact2": "Maple syrup which is often used as a topping, was originally a sweet drink which was discovered by the Algonquin Indians.",
