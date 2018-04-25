@@ -10,7 +10,7 @@
 		"Q2": "bread",
 		"Q3": "England",
 		"Qimages": ["bread", "rice", "noodles"],
-		"suggestion": ["Swap Normal Suger with Brown Sugar (-7 calories)", "No Eggs (-63 calories)", "Swap Whole-fat Milk with Almond Milk (-110 calories)"],
+		"suggestion": ["Swap Normal Suger with Brown Sugar (-7 calories)", "Remove Eggs (-63 calories)", "Swap Whole-fat Milk with Almond Milk (-110 calories)"],
 		"fact1": "November 28th is National French Toast Day.",
 		"fact2": "In the 15th century English court of Henry V, a version of the French toast called 'pain perdu' or 'lost bread' was the culinary rage. Then, it was called 'lost' bread because the recipe called for soaking hard or stale bread in a mixture of milk and egg, then frying it. Pain perdu is what the French call French toast today.",
 		"recipeHTML": "<p>1. In a small bowl, combine, cinnamon, nutmeg, and sugar and set aside briefly.</p><p>2. In a 10-inch or 12-inch skillet, melt butter over medium heat.</p><p>3. Whisk together cinnamon mixture, eggs, milk, and vanilla and pour into a shallow container such as a pie plate.</p><p>4. Dip bread in egg mixture. Fry slices until golden brown, then flip to cook the other side. Serve with syrup.</p>"
