@@ -42,7 +42,7 @@ var feedback = document.getElementById("feedback"),
 function showFeedback(score, name) {
     if(score == 0) {
         resultPic.src= "imgs/icon_imgs/try_again_emo.svg";
-        feedback.innerText = "Oh no!"+ name +" why don't you try again? Remember, look through the recipe carefully and remember the facts.";
+        feedback.innerText = "Oh no!"+ name +" Why don't you try again? Remember, look through the recipe carefully and remember the facts.";
         
     } else if (score == 1) {
         resultPic.src= "imgs/icon_imgs/try_again_emo.svg";
@@ -55,7 +55,7 @@ function showFeedback(score, name) {
         
     } else if (score == 3) {
         resultPic.src= "imgs/icon_imgs/well_done_emo.svg";
-        feedback.innerText = "Hurray!! "+ name +" you are well on your way to becoming a awesome home cook! Check out the suggestions below to see what you can subsitute in this recipe to lower your calorie intake.";
+        feedback.innerText = "Hurray!! "+ name +" you are well on your way to becoming an awesome cook! Check out the suggestions below to see what you can subsitute in this recipe to lower your calorie intake.";
     }
 }
     
