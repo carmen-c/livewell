@@ -268,6 +268,9 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
     height: auto;
     z-index: -1;
 }
+.heading {
+	font-family: 'Poppins', sans-serif;
+}
 
 @keyframes updown {
     0% {bottom: 140px;}
@@ -291,6 +294,10 @@ label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
 }
 #resultPic {
     width: 100%;
+}
+#feedback {
+	width: 80%;
+	text-align: center;
 }
 
 /*================== MEDIA QUERIES ==================*/

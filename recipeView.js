@@ -24,7 +24,7 @@ document.getElementById("back").addEventListener("click", function() {
 function display(food) {
     document.getElementById("image").src = food.image;
     document.getElementById("dishName").innerText = food.name;
-    document.getElementById("calories").innerText = food.calories + " calories, "+food.servings; 
+    document.getElementById("calories").innerText = food.calories + " calories per serving, "+food.servings; 
     document.getElementById("recipeBox").innerHTML = food.recipeHTML;
     for (x=0;x<food.ingredients.length;x++) {
         $("#ingredientBox").append(food.ingredients[x]+"<br>");

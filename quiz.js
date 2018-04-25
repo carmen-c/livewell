@@ -113,7 +113,7 @@ var score = 0,
 //check my answers and update the score then save the score
 function checkAnswers() {
     findQ2Answer();
-    check1 = answer1.value +" per serving";
+    check1 = answer1.value;
     
     if(check1 == food.Q1) {
         score++;
