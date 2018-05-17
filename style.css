@@ -114,11 +114,18 @@ h1 {
 /*================== HOME ==================*/
 .logo {
     padding: 5% 10%;
-		margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 5%;
     width: 50%;
 }
-
+#aboutdesc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: #8eca3a;
+    text-align: center;
+    margin-top: -2%;
+    margin-bottom: 15%;
+    
+}
 /*================== RECIPES ==================*/
 #foodList {
     width: 80%;
